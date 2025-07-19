@@ -4,11 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build --base=/01-ts-basics/",
-    "preview": "vite preview",
-    "check": "tsc --noEmit",
-    "deploy": "gh-pages -d dist"
+      "dev": "vite",
+      "build": "tsc && vite build --base=/01-ts-basics/",
+      "preview": "vite preview",
+      "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
